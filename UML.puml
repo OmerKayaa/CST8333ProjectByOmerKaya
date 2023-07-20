@@ -1,0 +1,57 @@
+@startuml
+
+class Business
+{
+    +persistence: Persistence
+    +header: Array
+    +records: Record[]
+
+    __init__(persistence:Persistence)
+    add_record(args[])
+    delete_record(index)
+    edit_record(index:int, column_idx:int, new_value:Record)
+}
+
+class Persistence
+{
+    +filename:Array
+    +records:Record[]
+    +header:Array
+
+    __init__(filename:String)
+    read_csv()
+    write_csv()
+}
+
+class Record
+{
+    __init__(args[]:Array):
+    columns:Array
+}
+
+class Main
+{
+
+main()
+
+}
+
+class Presentation
+{
+    +business:Business
+    +records_per_page:int
+    +current_page:int
+
+    __init__(business:Business)
+    init_ui()
+    on_delete_button_clicked()
+    on_add_record_clicked()
+    update_records_display()
+    on_next_button_clicked()
+    on_prev_button_clicked()
+    on_cell_changed(row:int, column:int)
+}
+
+
+
+@enduml

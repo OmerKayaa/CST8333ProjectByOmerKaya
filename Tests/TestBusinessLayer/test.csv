@@ -1,0 +1,15 @@
+REF_DATE,GEO,DGUID,Type of product,Type of storage,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+1970-01,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,1041,,,,0
+1970-01,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,26341,,,,0
+1970-01,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,29526,,,,0
+1970-01,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,1955,,,,0
+1970-01,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,725,,,,0
+1970-01,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,147,,,,0
+1970-01,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,2949,,,,0
+1970-01,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,508,,,,0
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+new value,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+new value,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+new value,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
