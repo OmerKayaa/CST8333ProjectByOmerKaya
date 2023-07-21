@@ -13,8 +13,11 @@ host = cfg["db"]["host"]
 database = cfg["db"]["database"]
 table_name = cfg["db"]["table_name"]
 
+""" This is test class for testing connection to database
+"""
 
-class MyTestCase(unittest.TestCase):
+
+class DatabaseConnectionTestCases(unittest.TestCase):
     def test_connection(self):
         try:
             self.engine = create_engine(f'mysql+pymysql://{username}:{password}@{host}/{database}')

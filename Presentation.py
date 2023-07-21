@@ -23,7 +23,7 @@ class PresentationLayer(QtWidgets.QWidget):
 
         self.number_of_records = 0  # Number of total records
         self.records_per_page = 100  # change this to control how many records per page
-        self.current_page = 1  # Current page variable
+        self.current_page = 0  # Current page variable
 
         self.update_number_of_records()
 

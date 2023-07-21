@@ -16,7 +16,6 @@ and PresentationLayer classes and starts the Qt application.
 
 
 def main():
-    filename = "./venv/32100260.csv"
     persistence = PersistenceLayer()
 
     business = BusinessLayer(persistence)
